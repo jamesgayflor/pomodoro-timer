@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheke's Pomodoro-timer</title>
+    <link rel="shortcut icon"
+        href="https://imageio.forbes.com/specials-images/imageserve/509628331/Pomodoro-technique/960x0.jpg?format=jpg&width=1440"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+
+<body>
+    <div id="timer-message">Please select a timer before starting.</div>
+    <div id="reset-message">Please select a timer before Resetting.</div>
+
+    <div class="container" id="container">
+        <div class="timer">
+            <h2>Sheke's <br>Pomodoro Timer</h2>
+
+            <div class="button-container">
+                <button type="button" class="button" id="pomodoro-session">
+                    Pomodoro
+                </button>
+                <button type="button" class="button" id="short-break">
+                    Short Break
+                </button>
+                <button type="button" class="button" id="long-break">
+                    Long break
+                </button>
+            </div>
+
+            <div id="pomodoro-timer" class="timer-display" data-duration="25.00">
+                25:00
+            </div>
+
+            <div id="short-timer" class="timer-display" data-duration="5.00">
+                5:00
+            </div>
+
+            <div id="long-timer" class="timer-display" data-duration="10.00">
+                10:00
+            </div>
+
+            <div id="buttons">
+                <button type="button" class="btn-lg" id="start">
+                    Start
+                </button>
+                <button type="button" class="btn-lg" id="reset">
+                    RESET
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./reset.js"></script>
+</body>
+
+</html>

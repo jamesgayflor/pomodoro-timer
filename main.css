@@ -1,0 +1,98 @@
+body {
+	background-color: deeppink !important;
+	color: #d7e0ff;
+	height: 100vh;
+}
+
+#container {
+	text-align: center;
+	width: 100%;
+	padding: 10px 0;
+	height: 100%;
+}
+
+.timer {
+	display: inline-block;
+	padding: 10px;
+	width: 95%;
+	box-sizing: border-box;
+	height: 100%;
+	align-content:flex-start;
+}
+
+h2 {
+	font-size: 2em;
+	width: 20ch;
+	margin: 20px auto;
+	color: white;
+}
+
+.button-container {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.button {
+	background-color: teal;
+	color: pink;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin: 5px;
+	cursor: pointer;
+	outline: none !important;
+	border: none !important;
+}
+
+.button:hover {
+	background-color: white;
+	color: deeppink;
+}
+
+.active {
+	color: deeppink;
+	font-weight: bolder;
+	background-color: white;
+}
+
+.hidden {
+	display: block;
+}
+
+.timer-display {
+	font-size: 5em;
+	margin-top: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+#buttons {
+	margin-top: 20px;
+}
+
+#start,
+#stop,
+#reset {
+	background-color: teal;
+	color: pink;
+	border: none !important;
+	outline: none !important;
+}
+
+#start:hover,
+#stop:hover,
+#reset:hover {
+	background-color: white;
+	color: deeppink;
+}
+
+#timer-message,
+#reset-message {
+	color: white;
+	background-color: teal;
+	display: none;
+	padding: .5em;
+	font-size: 1em;
+	text-align: center;
+}
